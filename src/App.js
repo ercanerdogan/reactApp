@@ -1,11 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Navi from "./Navi";
+import CategoryList from "./CategoryList";
+import ProductList from './ProductList';
 
 function App() {
   return (
     <div>
-      <h2>Hello from React</h2>      
+      <Navi/>
+      <CategoryList/>
+      <ProductList/>
     </div>
   );
 }
