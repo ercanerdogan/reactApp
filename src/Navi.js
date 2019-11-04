@@ -4,7 +4,7 @@ export default class Navi extends Component {
     render() {
         return (
             <div>
-                <h1>Here is "Navi" component</h1>
+                <h1>Navigation</h1>
             </div>
         )
     }
